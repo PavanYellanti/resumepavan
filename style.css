@@ -1,0 +1,46 @@
+header{
+  text-align: center;
+  margin-bottom: 3%;
+  text-decoration: underline;
+  box-shadow: 2px 2px 2px 2px black;
+  padding: 2px;
+  background-color: purple;
+  color: yellow;
+}
+.box{
+  display: flex;
+  justify-content: center;
+
+}
+
+img{
+  border-radius: auto;
+  box-shadow:2px 2px 2px 2px red;
+}
+.first,
+.second{
+  margin: 1%;
+  padding: 2%;
+  text-align: center;
+  box-shadow: 2px 2px 2px 2px black;
+}
+
+footer{
+  background-color: blacK;
+  color: white;
+  text-align: center;
+  padding: .7em;
+}
+
+/* media queries */
+@media (min-device-width:320px) and (max-device-width:480px) {
+  .box{
+    flex-wrap: wrap;
+  }
+  .first,
+  .second{
+    width: 80%;
+    margin-bottom: 5%;
+  }
+
+}
